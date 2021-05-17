@@ -3,7 +3,7 @@ module practice/pubsub
 go 1.16
 
 require (
-	cloud.google.com/go/pubsub v1.10.3 // indirect
+	cloud.google.com/go/pubsub v1.10.3
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	golang.org/x/lint v0.0.0-20210508222113-6edffad5e616 // indirect
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
