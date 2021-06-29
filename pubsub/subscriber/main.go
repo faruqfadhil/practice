@@ -46,8 +46,8 @@ func init() {
 }
 
 var (
-	subs = flag.String("subs", "", "Set subscription")
-	proj = flag.String("proj", "", "set project")
+	subs = flag.String("subscription", "", "Set subscription")
+	proj = flag.String("project", "", "set project")
 )
 
 func main() {

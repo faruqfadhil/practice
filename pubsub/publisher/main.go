@@ -38,7 +38,7 @@ func Publish(projectID, topicID, msg string) error {
 
 var (
 	topic = flag.String("topic", "", "Set topic")
-	proj  = flag.String("proj", "", "set project")
+	proj  = flag.String("project", "", "set project")
 )
 
 func init() {
